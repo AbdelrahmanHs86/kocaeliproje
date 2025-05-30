@@ -3,11 +3,9 @@ package com.kocaelitest;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.Test;
-// import static org.junit.Assert.*;
 import org.junit.Before;
-import org.junit.After;
+// import org.junit.After;
 import static org.hamcrest.Matchers.*;
-// import static org.junit.Assert.assertEquals;
 import static io.restassured.RestAssured.*;
 import org.json.JSONObject;
 
@@ -39,7 +37,7 @@ public class AppTest {
 
             System.out.println("✅ GET Testi /posts/1 isteği beklenen yanıtı döndürdü: userId 1 ve boş olmayan başlık.");    
         }
-        
+
 
     // ❌ Invalid GET Request (Negative Test)
     @Test
